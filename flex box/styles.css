@@ -1,0 +1,96 @@
+main {
+  display: flex;
+  /* flex-direction: row; */
+  margin: auto;
+  /* width: 95%; research diff between auto and % */
+  width: auto;
+  height: auto;
+  justify-content: space-between;
+}
+
+/* header {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* background-color: black; 
+  justify-content: space-between;
+  /* align-content: center; 
+} */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  width: auto;
+  height: 50px;
+  padding: 6px;
+}
+
+#logo {
+  width: 10%;
+  height: 124%;
+  /* align-items: left; */
+  background-color: green;
+  align-items: left;
+  /* height: inherit; */
+  /* justify-content: space-between; */
+}
+
+/* .primary {
+  background-color: aqua;
+}
+
+.secondary {
+  background-color: blue;
+} */
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+ #nav_links {
+  display: flex;
+  width: 50%;
+  flex-direction: row;
+  /* color: white; */
+  /* align-items: center; */
+  justify-content: space-around;
+  /* justify-content: space-between; */
+ }
+ 
+ a {
+  color: white;
+  text-decoration: none;
+ }
+
+ a:hover {
+  color: aqua;
+  background-color:azure;
+ }
+
+ .card {
+  margin: 10px;
+  border: 2px solid black;
+ }
+
+ .card1 {
+  margin: 10px;
+  border: 2px solid black;
+ }
+
+ #left-panel
+ {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+ }
+
+ #right-row {
+  width: 20%;
+  margin: 10px;
+  padding: 20px;
+  /* justify-content: space-between; */
+ }
+ 
